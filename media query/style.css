@@ -1,0 +1,215 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  .navlist {
+    font-size: 15px;
+    margin: 0px -43px;
+  }
+
+  .home-text h1 {
+    margin-top: 120px;
+    font-size: 50px;
+  }
+
+  .arrow i {
+    margin-bottom: 60px;
+  }
+
+  .name input {
+    width: 220px;
+
+  }
+
+  .email input {
+    width: 220px;
+  }
+
+  .subject input {
+    width: 448px;
+  }
+
+  .message-area textarea {
+    width: 448px;
+  }
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .navlist {
+    font-size: 15px;
+    margin: 0px -120px;
+  }
+
+  .home-text h1 {
+    margin-top: 120px;
+    font-size: 50px;
+  }
+
+  .name input {
+    width: 220px;
+
+  }
+
+  .email input {
+    width: 220px;
+  }
+
+  .subject input {
+    width: 448px;
+  }
+
+  .message-area textarea {
+    width: 448px;
+  }
+}
+
+
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .navlist {
+    font-size: 15px;
+    margin: 0px -52px;
+  }
+
+  .home-text h1 {
+    margin-top: 120px;
+    font-size: 50px;
+  }
+
+  .name input {
+    width: 220px;
+
+  }
+
+  .email input {
+    width: 220px;
+  }
+
+  .subject input {
+    width: 448px;
+  }
+
+  .message-area textarea {
+    width: 448px;
+  }
+
+  .contact-icon-email p {
+    font-size: 12px;
+  }
+
+  .contact-icon-call p {
+    font-size: 12px;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .header-sticky {
+    padding-left: 100px;
+  }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .navlist {
+    font-size: 10px;
+    margin: 0px -120px;
+  }
+
+  .home-text h1 {
+    margin-top: 100px;
+    font-size: 40px;
+  }
+
+  .name input {
+    width: 428px;
+  }
+
+  .email input {
+    width: 428px;
+    margin-left: 12px;
+  }
+
+  .subject input {
+    width: 430px;
+  }
+
+  .message-area textarea {
+    width: 428px;
+  }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .home-text h1 {
+    margin-top: 100px;
+    font-size: 40px;
+  }
+
+  .navlist {
+    font-size: 6px;
+    margin: 0px -109px;
+  }
+
+  .home-text h1 {
+    font-size: 29px;
+  }
+
+  .name input {
+    width: 310px;
+  }
+
+  .email input {
+    width: 310px;
+    margin-left: 12px;
+  }
+
+  .subject input {
+    width: 310px;
+  }
+
+  .message-area textarea {
+    width: 310px;
+  }
+}
